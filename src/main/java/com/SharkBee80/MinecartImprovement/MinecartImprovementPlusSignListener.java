@@ -5,11 +5,11 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.SignChangeEvent;
 
-public class MinecartImprovementPlusSignListener implements Listener {
+public class MinecartImprovementSignListener implements Listener {
 
     MinecartImprovement plugin;
 
-    public MinecartImprovementPlusSignListener(MinecartImprovement instance) {
+    public MinecartImprovementSignListener(MinecartImprovement instance) {
 
         plugin = instance;
     }

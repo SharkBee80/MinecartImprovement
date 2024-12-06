@@ -12,9 +12,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class MinecartImprovement extends JavaPlugin {
     Logger log = Logger.getLogger("Minecraft");
 
-    private final com.SharkBee80.MinecartImprovement.MinecartImprovementPlusVehicleListener VehicleListener = new com.SharkBee80.MinecartImprovement.MinecartImprovementPlusVehicleListener(this);
+    private final MinecartImprovementVehicleListener VehicleListener = new MinecartImprovementVehicleListener(this);
 
-    private final com.SharkBee80.MinecartImprovement.MinecartImprovementPlusSignListener SignListener = new com.SharkBee80.MinecartImprovement.MinecartImprovementPlusSignListener(this);
+    private final com.SharkBee80.MinecartImprovement.MinecartImprovementSignListener SignListener = new com.SharkBee80.MinecartImprovement.MinecartImprovementSignListener(this);
 
     static double speedmultiplier = 1D;
 
@@ -44,8 +44,8 @@ public final class MinecartImprovement extends JavaPlugin {
 
     public void onDisable() {
         this.log.info(getDescription().getName() + " version " + getDescription().getVersion() + " stopped.");
-        com.SharkBee80.MinecartImprovement.MinecartImprovementPlusVehicleListener.cartMaxSpeeds.clear(); // 清理存储的数据
-        com.SharkBee80.MinecartImprovement.MinecartImprovementPlusVehicleListener.cartslow.clear(); // 清理存储的数据
+        MinecartImprovementVehicleListener.cartMaxSpeeds.clear(); // 清理存储的数据
+        MinecartImprovementVehicleListener.cartslow.clear(); // 清理存储的数据
     }
 
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {

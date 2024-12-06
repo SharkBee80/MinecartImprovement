@@ -17,7 +17,7 @@ import org.bukkit.event.vehicle.VehicleMoveEvent;
 import org.bukkit.material.Rails;
 import org.bukkit.util.Vector;
 
-public class MinecartImprovementPlusVehicleListener implements Listener {
+public class MinecartImprovementVehicleListener implements Listener {
     // 用于存储 Minecart 和它的cartMaxSpeeds值
     public static final HashMap<Minecart, Double> cartMaxSpeeds = new HashMap<>();
 
@@ -61,7 +61,7 @@ public class MinecartImprovementPlusVehicleListener implements Listener {
     Vector flyingmod = new Vector(10, 0.01, 10);
     Vector noflyingmod = new Vector(1, 1, 1);
 
-    public MinecartImprovementPlusVehicleListener(MinecartImprovement instance) {
+    public MinecartImprovementVehicleListener(MinecartImprovement instance) {
         plugin = instance;
     }
 
