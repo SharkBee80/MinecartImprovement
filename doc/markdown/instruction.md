@@ -9,19 +9,20 @@
 
 * set maxspeed globally
 
-  <img alt="image" height="43" src="../Image/cmd1.png" width="182"/><br>
-  <img alt="image" height="38" src="../Image/cmd2.png" width="757"/><br>
+  <img alt="image" height="43" src="../image/cmd1.png" width="182"/><br>
+  <img alt="image" height="38" src="../image/cmd2.png" width="757"/><br>
 
 * automatically slowdown
 
-  <img alt="image" height="400" src="../Image/0.5.png" width="425"/><br>
+  <img alt="image" height="400" src="../image/0.5.png" width="425"/><br>
   if value = null <br>
-  <img alt="image" height="200" src="../Image/noslow1.png" width="200"/>—>
-  <img alt="image" height="200" src="../Image/noslow2.png" width="200"/><br>
+  <img alt="image" height="200" src="../image/noslow1.png" width="200"/>—>
+  <img alt="image" height="200" src="../image/noslow2.png" width="200"/><br>
 
 * gliding minecarts
 
-  [msp]->fly,[msp]->nofly
+  [msp]->fly<br>
+  [msp]->nofly
 
 # Description
 
