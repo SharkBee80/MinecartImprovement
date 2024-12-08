@@ -79,7 +79,7 @@ public class MinecartImprovementVehicleListener implements Listener {
     }
 
     @EventHandler(priority = EventPriority.NORMAL)
-    public void onVehicleMove(VehicleMoveEvent event) {
+    public void onVehicleMoveSlow(VehicleMoveEvent event) {
 
         if (event.getVehicle() instanceof Minecart) {
 
