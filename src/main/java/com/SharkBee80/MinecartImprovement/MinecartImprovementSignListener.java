@@ -21,7 +21,7 @@ public class MinecartImprovementSignListener implements Listener {
 //                if (!(e.getPlayer().hasPermission("msp.signs.fly"))) {
 //                    e.setLine(0, "NO PERMS");
 //                }
-//            } else {
+            } else {
                 boolean error = false;
                 double speed = -1;
 
