@@ -26,13 +26,13 @@ public final class MinecartImprovement extends JavaPlugin {
         return speedmultiplier;
     }
 
-    public boolean setSpeedMultiplier(double multiplier) {
-        if ((((0.0D < multiplier) ? 1 : 0) & ((multiplier <= 4.0D) ? 1 : 0)) != 0) {
-            speedmultiplier = multiplier;
-            return true;
-        }
-        return false;
-    }
+//    public boolean setSpeedMultiplier(double multiplier) {
+//        if ((((0.0D < multiplier) ? 1 : 0) & ((multiplier <= 4.0D) ? 1 : 0)) != 0) {
+//            speedmultiplier = multiplier;
+//            return true;
+//        }
+//        return false;
+//    }
 
     public void onEnable() {
         this.log.info(getDescription().getName() + " version " + getDescription().getVersion() + " started.");
