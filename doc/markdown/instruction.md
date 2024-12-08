@@ -7,7 +7,7 @@
   <img alt="image" height="200" src="../image/4.png" width="200"/>
   <img alt="image" height="200" src="../image/limit.png" width="200"/><br>
 
-* set maxspeed globally
+* ~~set maxspeed globally~~<sub>ddelete</sub>
 
   <img alt="image" height="43" src="../image/cmd1.png" width="182"/><br>
   <img alt="image" height="38" src="../image/cmd2.png" width="757"/><br>

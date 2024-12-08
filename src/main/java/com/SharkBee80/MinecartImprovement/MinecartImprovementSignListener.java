@@ -18,10 +18,10 @@ public class MinecartImprovementSignListener implements Listener {
     public void onSignChange(SignChangeEvent e) {
         if (e.getLine(0).equalsIgnoreCase("[msp]")) {
             if (e.getLine(1).equalsIgnoreCase("fly") || e.getLine(1).equalsIgnoreCase("nofly")) {
-                if (!(e.getPlayer().hasPermission("msp.signs.fly"))) {
-                    e.setLine(0, "NO PERMS");
-                }
-            } else {
+//                if (!(e.getPlayer().hasPermission("msp.signs.fly"))) {
+//                    e.setLine(0, "NO PERMS");
+//                }
+//            } else {
                 boolean error = false;
                 double speed = -1;
 
@@ -36,9 +36,9 @@ public class MinecartImprovementSignListener implements Listener {
                     e.setLine(2, "0.0-4.0");
                 }
 
-                if (!(e.getPlayer().hasPermission("msp.signs.speed"))) {
-                    e.setLine(0, "NO PERMS");
-                }
+//                if (!(e.getPlayer().hasPermission("msp.signs.speed"))) {
+//                    e.setLine(0, "NO PERMS");
+//                }
 
             }
 

@@ -1,40 +1,38 @@
-name: MinecartImprovement     # MinecartImprovement-version: 1.0.1
+name: MinecartImprovement     # MinecartImprovement
 main: com.SharkBee80.MinecartImprovement.MinecartImprovement
-version: '24.12.04'
+version: '1.1.1'
 api-version: '1.20'
 author: sharkbee80
-date: 2024.12.04
-description: 2024.12.01开始. 屎山代码
 
-commands:
-  msp:
-    description: Sets new minecart speed limit.
-    usage: |
-      "/msp <multiplier>"   #limet = 0.0-4.0
-      Modify the global powered_rail speed, please keep the default at 1.0
-    # 修改全局动力铁轨速度,请保持默认为1.0
-permissions:
-  msp.*:
-    description: Gives access to all msp features
-    default: op
-    children:
-      msp.cmd: true
-      msp.signs: true
-  msp.cmd:
-    description: Allows you to use speed cmd
-    default: op
-  msp.signs:
-    description: Allows you to create both signs   #limet = 4
-    default: true
-    children:
-      msp.signs.speed: true
-      msp.signs.fly: true
-  msp.signs.speed:
-    description: Allows you to create speed-sings   #limet = 4
-    default: true
-  msp.signs.fly:
-    description: Allows you to create fly-signs
-    default: true
+#commands:
+#  msp:
+#    description: Sets new minecart speed limit.
+#    usage: |
+#      "/msp <multiplier>"   #limet = 0.0-4.0
+#      Modify the global powered_rail speed, please keep the default at 1.0
+#    # 修改全局动力铁轨速度,请保持默认为1.0
+#permissions:
+#  msp.*:
+#    description: Gives access to all msp features
+#    default: op
+#    children:
+#      msp.cmd: true
+#      msp.signs: true
+#  msp.cmd:
+#    description: Allows you to use speed cmd
+#    default: op
+#  msp.signs:
+#    description: Allows you to create both signs   #limet = 4
+#    default: true
+#    children:
+#      msp.signs.speed: true
+#      msp.signs.fly: true
+#  msp.signs.speed:
+#    description: Allows you to create speed-sings   #limet = 4
+#    default: true
+#  msp.signs.fly:
+#    description: Allows you to create fly-signs
+#    default: true
 
 # According to MinecartSpeedPlus modify.
 # https://github.com/rmellis/MinecartSpeedPlus
